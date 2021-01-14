@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/MyProject.dir/SOURCES/Mysource.cpp.o CMakeFiles/MyProject.dir/SOURCES/Source.cpp.o  -o MyProject  -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system -lboost_system -lboost_thread -lboost_timer -lpthread -lX11 INCLUDE/libINCLUDE.a 

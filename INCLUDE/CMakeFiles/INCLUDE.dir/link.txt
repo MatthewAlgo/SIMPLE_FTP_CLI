@@ -1,0 +1,2 @@
+/usr/bin/ar qc libINCLUDE.a  CMakeFiles/INCLUDE.dir/CPP.cpp.o
+/usr/bin/ranlib libINCLUDE.a

@@ -1,0 +1,110 @@
+The system is: Linux - 5.4.0-42-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6d7d/fast && /usr/bin/make -f CMakeFiles/cmTC_f6d7d.dir/build.make CMakeFiles/cmTC_f6d7d.dir/build
+make[1]: Entering directory '/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6d7d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f6d7d.dir/testCCompiler.c.o   -c /home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f6d7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d7d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f6d7d.dir/testCCompiler.c.o  -o cmTC_f6d7d 
+make[1]: Leaving directory '/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3af4c/fast && /usr/bin/make -f CMakeFiles/cmTC_3af4c.dir/build.make CMakeFiles/cmTC_3af4c.dir/build
+make[1]: Entering directory '/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3af4c.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3af4c.dir/testCXXCompiler.cxx.o -c /home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3af4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3af4c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3af4c.dir/testCXXCompiler.cxx.o  -o cmTC_3af4c 
+make[1]: Leaving directory '/home/matthewalgo/DATA/linux-projects/Synth/CMakeFiles/CMakeTmp'
+
+
+
+The system is: Linux - 5.4.0-54-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_693f6/fast && /usr/bin/make -f CMakeFiles/cmTC_693f6.dir/build.make CMakeFiles/cmTC_693f6.dir/build
+make[1]: Entering directory '/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_693f6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_693f6.dir/testCCompiler.c.o   -c /home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_693f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693f6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_693f6.dir/testCCompiler.c.o  -o cmTC_693f6 
+make[1]: Leaving directory '/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48399/fast && /usr/bin/make -f CMakeFiles/cmTC_48399.dir/build.make CMakeFiles/cmTC_48399.dir/build
+make[1]: Entering directory '/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48399.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_48399.dir/testCXXCompiler.cxx.o -c /home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_48399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48399.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_48399.dir/testCXXCompiler.cxx.o  -o cmTC_48399 
+make[1]: Leaving directory '/home/matthewalgo/DATA/linux-projects/PBINFO/CMakeFiles/CMakeTmp'
+
+
+

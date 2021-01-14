@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++ build active file",
+      "command": "/usr/bin/g++",
+      "args": ["-g",
+         "${workspaceFolder}/SOURCES/*.cpp",
+          "-o",
+          "${workspaceFolder}/Program",
+          //"-lboost_date_time -lboost_thread -lboost_system -lsfml_graphics -lsfml_audio -lsfml-window -lsfml-system",
+          //"-I/home/matthewalgo/Desktop/C++_Libraries/SFML-2.5.1/include"
+          //"-lsfml-graphics -lsfml-window -lsfml-system"
+          //"-llibsfml-graphics.so -llibsfml-audio.so -llibsfml-system.so -llibsfml-window.so"
+          //"-I /home/matthewalgo/Desktop/C++_Libraries/boost_1_73_0",
+          //"pkg-config --libs --cflags opencv",
+
+          "-I /usr/include/python2.7",
+          "-I /usr/local/include/eigen3/",
+          "-I /home/matthewalgo/Desktop/C++_Libraries/eigen/",
+          "-I /usr/local/include/Wt",
+
+          "-L ${workspaceFolder}/Lib",
+          "-L /usr/lib",
+          "-L /home/matthewalgo/Desktop/C++_Libraries/poco/cmake-build/lib",
+          "-L /usr/local/lib",
+          
+          //"-lsfml-graphics -lsfml-window -lsfml-system -lboost_system -lboost_thread -lboost_timer",
+          "-lsfml-graphics",
+          "-lsfml-window",
+          "-lsfml-system",
+          "-lsfml-network",
+          "-lsfml-audio",
+          "-lboost_system",
+          "-lboost_thread",
+          "-lboost_timer",
+          "-lboost_serialization",
+          "-lboost_regex", 
+          "-lboost_filesystem",
+          "-lPocoNet",
+          
+          "-lpython2.7",
+          "-lPocoCrypto",
+          "-lPocoData",
+          "-lPocoFoundation",
+          "-lboost_system",
+          "-lboost_thread",
+          "-lboost_timer",
+          "-lpthread",
+          "-lX11",
+          "-pthread",
+          "-lpthread"
+
+          //"-L /home/matthewalgo/Desktop/C++_Libraries/SFML-2.5.1/lib -lsfml-graphics -lsfml-window -lsfml-system"
+          //"-I /home/matthewalgo/Desktop/C++_Libraries/SFML-2.5.1/include",
+          //"-L /home/matthewalgo/Desktop/C++_Libraries/SFML-2.5.1/lib -lboost_date_time -lboost_thread -lboost_system",
+          //"-lsfml-graphics -lsfml-window -lsfml-system",
+          //"-lsfml-graphics -lsfml-window -lsfml-system",
+          ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
